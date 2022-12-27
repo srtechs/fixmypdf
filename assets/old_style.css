@@ -1,0 +1,109 @@
+body{
+    z-index: 1;
+}
+
+.py-custom{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@font-face {
+    font-family: Vollkorn;
+    src: url(./fonts/WOFF/vollkorn-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+.section-1 {
+    z-index: 2;
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: url("./images/bg-1.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    min-height: calc(0.472 * 100vw);
+}
+
+.section-3 {
+    z-index: 3;
+    width: 100%;
+    background-color: #FFFFFF;
+    background-image: url("./images/bg-3.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    min-height: calc(0.416 * 100vw);
+    position: absolute;
+}
+
+.section-4 {
+    z-index: 4;
+    width: 100%;
+    background-color: #0065BB;
+    background-image: url("./images/serction-3.png");
+    background-position: center top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    /* height: calc(0.112 * 100vw); */
+    top: calc(0.416 * 80vw);
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+}
+
+.absolute {
+    position: absolute;
+    width: 100%;
+}
+
+.heading {
+    font-size: 4rem !important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Vollkorn;
+}
+
+p {
+    font-family: Montserrat !important;
+}
+
+.text-blue{
+    color: #0065BB !important;
+}
+
+.card-text{
+    color: #6D6D6D !important;
+}
+
+.card-text-active{
+    color: #F8F9F0 !important;
+}
+
+.bg-blue{
+    background-color: #0065BB !important;
+    color: white !important;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.main-image{
+    float: right;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+}
+
+.card{
+    border: none !important;
+    border-radius: 1rem !important;
+    box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.1);
+}
